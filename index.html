@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <link rel="stylesheet" href="main.css">
     <link rel="icon" href="icon.png" type="image/x-icon">
     <title>Akshay Chame</title>
@@ -66,32 +66,39 @@
         <div id="shareModal"
             class="opacity-0 pointer-events-none w-screen h-screen absolute bg-[#f1bdf25d] transition-opacity duration-300 flex justify-center items-center">
             <div id="mainShare"
-                class=" scale-0 w-[500px] h-[218px] bg-[#blue] backdrop-blur-md rounded-lg border-2 transition ease-in-out duration-300 border-[#ffffff8a] absolute p-4 ">
-                <div class="flex justify-between">
-                    <h3 class="text-2xl font-sans text-white font-bold">Share My Profile</h3>
-                    <button id="closeBtn"><i class="text-2xl font-sans text-white pt-2 fa-solid fa-xmark"></i></button>
-                </div>
-                <div class="w-[full] h-[1px] bg-[#e2e2e2] mt-4 mb-5"></div>
-                <h4 class="text-lg text-white font-sans">Share this via</h4>
-                <div class="mt-4 w-[full] flex justify-around">
-                    <button onclick="window.location.href='https://www.facebook.com/akshay.chame.7/'"
-                        class="h-14 w-14 rounded-full text-2xl text-[#1771e6] border-2 hover:bg-[#1771e6] hover:text-white transition ease-in-out duration-500"><i
-                            class="fa-brands fa-facebook-f"></i></button>
-                   
-                    <button onclick="window.location.href='https://www.instagram.com/akshay_chame/'"
-                        class="h-14 w-14 rounded-full text-2xl text-[#cb2770] border-2 hover:bg-[#cb2770] hover:text-white transition ease-in-out duration-500"><i
-                            class="fa-brands fa-instagram"></i></button>
-                    <button onclick="window.location.href='https://github.com/akshayram1'"
-                        class="h-14 w-14 rounded-full text-2xl text-[#010409] border-2 hover:bg-[#010409] hover:text-[#e6edf3] transition ease-in-out duration-500"><i
-                            class="fa-brands fa-github"></i></button>
-                    <button onclick="window.location.href='https://www.linkedin.com/in/akshay-chame-b43bb8209/'"
-                        class="h-14 w-14 rounded-full text-2xl text-[#0a66c2] border-2 hover:bg-[#0a66c2] hover:text-white transition ease-in-out duration-500"><i
-                            class="fa-brands fa-linkedin-in"></i></button>
-                    <button onclick="window.location.href='https://www.snapchat.com/add/akshay_chame007?share_id=G2cz06SGR_M&locale=en-US'"
-                        class="h-14 w-14 rounded-full text-2xl text-[#0a66c2] border-2 hover:bg-[#0a66c2] hover:text-white transition ease-in-out duration-500"><i
-                            class="fa-brands fa-snapchat"></i></button>
+                class="scale-0 w-full sm:w-[500px] h-[218px] bg-[#blue] backdrop-blur-md rounded-lg border-2 transition ease-in-out duration-300 border-[#ffffff8a] absolute p-4 ">
+                <div class="flex flex-col justify-between h-full">
+                    <div class="mb-5">
+                        <div class="flex justify-between">
+                            <h3 class="text-2xl font-sans text-white font-bold">Share My Profile</h3>
+                            <button id="closeBtn"><i class="text-2xl font-sans text-white pt-2 fa-solid fa-xmark"></i></button>
+                        </div>
+                        <div class="w-full h-[1px] bg-[#e2e2e2] mt-4"></div>
+                        <h4 class="text-lg text-white font-sans">Share this via</h4>
+                    </div>
+                    <div class="flex justify-around">
+                        <button onclick="window.location.href='https://www.facebook.com/akshay.chame.7/'"
+                            class="h-14 w-14 rounded-full text-2xl text-[#1771e6] border-2 hover:bg-[#1771e6] hover:text-white transition ease-in-out duration-500"><i
+                                class="fa-brands fa-facebook-f"></i></button>
+        
+                        <button onclick="window.location.href='https://www.instagram.com/akshay_chame/'"
+                            class="h-14 w-14 rounded-full text-2xl text-[#cb2770] border-2 hover:bg-[#cb2770] hover:text-white transition ease-in-out duration-500"><i
+                                class="fa-brands fa-instagram"></i></button>
+                        <button onclick="window.location.href='https://github.com/akshayram1'"
+                            class="h-14 w-14 rounded-full text-2xl text-[#010409] border-2 hover:bg-[#010409] hover:text-[#e6edf3] transition ease-in-out duration-500"><i
+                                class="fa-brands fa-github"></i></button>
+                        <button onclick="window.location.href='https://www.linkedin.com/in/akshay-chame-b43bb8209/'"
+                            class="h-14 w-14 rounded-full text-2xl text-[#0a66c2] border-2 hover:bg-[#0a66c2] hover:text-white transition ease-in-out duration-500"><i
+                                class="fa-brands fa-linkedin-in"></i></button>
+                        <button
+                            onclick="window.location.href='https://www.snapchat.com/add/akshay_chame007?share_id=G2cz06SGR_M&locale=en-US'"
+                            class="h-14 w-14 rounded-full text-2xl text-[#0a66c2] border-2 hover:bg-[#0a66c2] hover:text-white transition ease-in-out duration-500"><i
+                                class="fa-brands fa-snapchat"></i></button>
+                    </div>
                 </div>
             </div>
+        </div>
+
         </div>
     </div>
 
